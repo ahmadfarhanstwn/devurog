@@ -4,14 +4,12 @@ using IdentityService.Helpers;
 using IdentityService.Models;
 using IdentityService.Repository;
 using IdentityService.Services;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IdentityService.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/auth")]
 public class IdentityController : ControllerBase
 {
     private readonly UserRepository _userRepository;

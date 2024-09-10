@@ -47,6 +47,8 @@ var app = builder.Build();
 
 app.UseAuthentication(); // This enables authentication middleware
 app.UseAuthorization();  // This enables authorization middleware
+app.UseHttpsRedirection();
+app.MapControllers();
 
 if (app.Environment.IsDevelopment())
 {
