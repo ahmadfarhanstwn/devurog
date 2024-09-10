@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoardService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976d24f3261cd87cddb894ba2f0b27759594752b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+952ba27110575f3f0ccf6a7886702d7bee72fbad")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoardService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoardService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
